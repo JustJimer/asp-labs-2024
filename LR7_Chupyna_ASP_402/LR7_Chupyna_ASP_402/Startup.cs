@@ -22,7 +22,7 @@
             }
             else
             {
-                app.UseExceptionHandler("/File/Error");
+                app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
 
@@ -35,7 +35,19 @@
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=File}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+            });
+
+            app.Use(async (context, next) =>
+            {
+                if (context.Request.Path == "/")
+                {
+                    context.Response.Redirect("/File/DownloadFile");
+                }
+                else
+                {
+                    await next();
+                }
             });
         }
     }
