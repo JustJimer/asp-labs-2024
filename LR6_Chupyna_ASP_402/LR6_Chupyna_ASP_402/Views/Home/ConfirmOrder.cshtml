@@ -1,0 +1,16 @@
+﻿@model List<LR6_Chupyna_ASP_402.Product>
+
+<h2>its yours now:</h2>
+<table>
+    <tr>
+        <th>product</th>
+        <th>quantity</th>
+    </tr>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.Name</td>
+            <td>@product.Quantity</td>
+        </tr>
+    }
+</table>
