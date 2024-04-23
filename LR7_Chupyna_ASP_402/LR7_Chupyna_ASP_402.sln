@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LR7_Chupyna_ASP_402", "LR7_Chupyna_ASP_402\LR7_Chupyna_ASP_402.csproj", "{AEBB3F45-04B5-4BD0-B09C-1C6127AF8E4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEBB3F45-04B5-4BD0-B09C-1C6127AF8E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBB3F45-04B5-4BD0-B09C-1C6127AF8E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBB3F45-04B5-4BD0-B09C-1C6127AF8E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBB3F45-04B5-4BD0-B09C-1C6127AF8E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {632482A5-495F-4DF6-98E6-08AD32FB6B16}
+	EndGlobalSection
+EndGlobal

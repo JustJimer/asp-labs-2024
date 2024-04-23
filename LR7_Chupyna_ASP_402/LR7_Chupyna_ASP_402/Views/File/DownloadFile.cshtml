@@ -1,0 +1,23 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Download File";
+}
+
+<h1>download your name in a file</h1>
+
+<form asp-action="DownloadFile" method="post">
+    <div class="form-group">
+        <label for="firstName">your name here:</label>
+        <input type="text" id="firstName" name="firstName" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="lastName">your surname here:</label>
+        <input type="text" id="lastName" name="lastName" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="fileName">how i should name the file:</label>
+        <input type="text" id="fileName" name="fileName" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-primary">create & download</button>
+</form>
