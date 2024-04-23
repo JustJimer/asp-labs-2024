@@ -22,7 +22,7 @@
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/File/Error");
                 app.UseHsts();
             }
 
@@ -35,7 +35,7 @@
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=File}/{action=Index}/{id?}");
             });
 
             app.Use(async (context, next) =>
