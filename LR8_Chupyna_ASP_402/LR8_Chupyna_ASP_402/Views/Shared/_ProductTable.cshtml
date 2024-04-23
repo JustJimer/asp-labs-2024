@@ -1,0 +1,19 @@
+﻿@model List<LR8_Chupyna_ASP_402.Product>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Created Date</th>
+    </tr>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.ID</td>
+            <td>@product.Name</td>
+            <td>@product.Price</td>
+            <td>@product.CreatedDate</td>
+        </tr>
+    }
+</table>

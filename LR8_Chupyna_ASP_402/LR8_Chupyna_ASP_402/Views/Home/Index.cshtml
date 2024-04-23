@@ -1,0 +1,24 @@
+﻿@model List<LR8_Chupyna_ASP_402.Product>
+
+@{
+    ViewBag.Title = "Products";
+}
+
+<h2>products</h2>
+
+<div>
+    <h3>list view</h3>
+    <ul>
+        @foreach (var product in Model)
+        {
+            <li>@product.ID. @product.Name - @product.Price$ (@product.CreatedDate)</li>
+        }
+    </ul>
+</div>
+
+<hr>
+
+<div>
+    <h3>table view</h3>
+    @Html.Partial("_ProductTable", Model)
+</div>
