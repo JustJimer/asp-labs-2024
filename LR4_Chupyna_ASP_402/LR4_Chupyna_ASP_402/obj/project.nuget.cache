@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cOQkFq07/dqPAzCHYm060yVySMUFx/gNrmrf4xAJJjFZFF5qxbg0NmO3ZfKS0EYeb9w1WdIlgKda88y3fcoKqw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jimerPC\\source\\repos\\LR4_Chupyna_ASP_402\\LR4_Chupyna_ASP_402\\LR4_Chupyna_ASP_402.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jimerPC\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
