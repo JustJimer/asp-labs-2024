@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\LR9_Chupyna_ASP_402.props" />
+</Project>
