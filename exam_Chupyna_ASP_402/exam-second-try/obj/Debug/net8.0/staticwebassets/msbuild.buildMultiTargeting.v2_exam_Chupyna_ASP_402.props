@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\v2_exam_Chupyna_ASP_402.props" />
+</Project>

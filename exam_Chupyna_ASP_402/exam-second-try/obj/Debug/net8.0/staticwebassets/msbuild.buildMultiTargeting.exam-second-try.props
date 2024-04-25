@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\exam-second-try.props" />
+</Project>
