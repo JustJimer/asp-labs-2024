@@ -1,0 +1,40 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model LR10_Chupyna_ASP_402.RegistrationModel
+
+@{
+    ViewData["Title"] = "Registration";
+}
+
+<h1>lr10 registration</h1>
+
+<form asp-controller="Home" asp-action="Register" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Name">name:</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email">email:</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ConsultationDate">consultation date:</label>
+        <input asp-for="ConsultationDate" class="form-control" />
+        <span asp-validation-for="ConsultationDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Product">product:</label>
+        <select asp-for="Product" class="form-control">
+            <option value="">select a product</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="C#">C#</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="Basics">Basics</option>
+        </select>
+        <span asp-validation-for="Product" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">register</button>
+</form>
